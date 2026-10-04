@@ -1,0 +1,12 @@
+ollama
+deepeval
+pytest
+python-dotenv
+langchain-ollama
+langchain-community
+langchain-chroma
+typing
+langchain
+ddgs
+beautifulsoup4
+google-genai

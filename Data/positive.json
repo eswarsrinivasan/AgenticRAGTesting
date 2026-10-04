@@ -1,0 +1,32 @@
+[
+  {
+    "testcasename": "mcp",
+    "input": "What is the Model Context Protocol (MCP) and what primary problem does it solve?",
+    "expected_output": "MCP is an open-source, standardized protocol that allows LLMs to connect with external tools and data sources. It solves the NxM problem of AI integration.",
+    "tool_called" : "search_mcp_knowledge_base"
+  },
+  {
+    "testcasename": "mcp",
+    "input": "What are the four main components of the MCP architecture?",
+    "expected_output": "The four main components are the Host application, MCP client, MCP server, and Transport layer (STDIO or Streamable HTTP).",
+    "tool_called" : "search_mcp_knowledge_base"
+  },
+  {
+    "testcasename": "mcp1",
+    "input": "How does MCP handle transport mechanisms?",
+    "expected_output": "MCP supports STDIO for local processes and Streamable HTTP for remote stateless connections using JSON-RPC 2.0 messages.",
+    "tool_called" : "search_mcp_knowledge_base"
+  },
+  {
+    "testcasename": "websearch",
+    "input": "What is the latest stock price or status of Nvidia?",
+    "expected_output": "The latest closing price for NVIDIA (NVDA) is $233.95",
+    "tool_called" : "web_search_tool"
+  },
+  {
+    "testcasename" : "add",
+    "input" : "What is the sum of 21 and 12",
+    "expected_output" : "33",
+    "tool_called" : "add_numbers"
+    }
+]
